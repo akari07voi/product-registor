@@ -12,4 +12,4 @@ ENV PATH $PATH:/usr/local/src/bin
 COPY Gemfile Gemfile.lock /product-register/
 RUN bundle install
 COPY . .
-CMD ["rails", "server"]
+CMD ["rails", "s"]
